@@ -67,7 +67,7 @@ class Product {
         return this.container
     }
     render(targetContainer) {
-        document.getElementById(targetContainer).append(this.createElement())
+        document.getElementById(targetContainer).append(this.el)
     }
 }
 
